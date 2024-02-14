@@ -1,5 +1,5 @@
-let number = Math.floor(Math.random() * 6);
-
+let number = Math.floor(Math.random() * 3);
+/*
 switch (number)
 {
     case 0: console.log('The life is good');
@@ -14,4 +14,13 @@ switch (number)
             break;
     case 5: console.log('I LOVE YOU!!!<3');
             break;
+}*/
+
+const arr1 = ['valentines day', 'love', 'passion'];
+const arr2 = ['is the one', 'Oulalala', 'moments'];
+const arr3 = ['just one per year', 'I love you', 'with you'];
+
+for(let i = 0; i < arr1.length; i++)
+{
+        console.log(arr1[number] + ' ' + arr2[number] + ' ' + arr3[number]);
 }

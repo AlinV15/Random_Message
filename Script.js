@@ -1,4 +1,6 @@
-let number = Math.floor(Math.random() * 3);
+let number1 = Math.floor(Math.random() * 3);
+let number2 = Math.floor(Math.random() * 3);
+let number3 = Math.floor(Math.random() * 3);
 /*
 switch (number)
 {
@@ -22,5 +24,5 @@ const arr3 = ['just one per year', 'I love you', 'with you'];
 
 for(let i = 0; i < arr1.length; i++)
 {
-        console.log(arr1[number] + ' ' + arr2[number] + ' ' + arr3[number]);
+        console.log(arr1[number1] + ' ' + arr2[number2] + ' ' + arr3[number3]);
 }

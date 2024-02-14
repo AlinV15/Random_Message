@@ -1,6 +1,6 @@
-let number1 = Math.floor(Math.random() * 3);
-let number2 = Math.floor(Math.random() * 3);
-let number3 = Math.floor(Math.random() * 3);
+let number1 = Math.floor(Math.random() * arr1.length);
+let number2 = Math.floor(Math.random() * arr2.length);
+let number3 = Math.floor(Math.random() * arr3.length);
 /*
 switch (number)
 {
@@ -18,9 +18,9 @@ switch (number)
             break;
 }*/
 
-const arr1 = ['valentines day', 'love', 'passion'];
-const arr2 = ['is the one', 'Oulalala', 'moments'];
-const arr3 = ['just one per year', 'I love you', 'with you'];
+const arr1 = ['valentines day', 'love', 'passion', 'flowers', 'night'];
+const arr2 = ['is the one', 'Oulalala', 'moments', 'fall in'];
+const arr3 = ['just one per year', 'I love you', 'with you', 'bed', 'your arms'];
 
 for(let i = 0; i < arr1.length; i++)
 {
